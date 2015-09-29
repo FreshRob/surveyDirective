@@ -1,0 +1,17 @@
+<div style="yg-cataelogue">
+	<ul  ng-if="vs.catalogue.length > 0">
+		<li ng-repeat="catalogue in vs.catalogue" ng-click="vs.toggleVisible(catalogue);  $event.stopPropagation();">
+			{{catalogue.name}}
+			<ul ng-if="catalogue.children"  ng-hide="!catalogue.childrenVisible">
+				<li ng-repeat="level2 in catalogue.children" ng-click="vs.toggleVisible(level2); $event.stopPropagation();">
+					{{ level2.name }}
+						<ul ng-if="level2.children"  ng-hide="!level2.childrenVisible">
+							<li ng-repeat="level3 in level2.children">
+								{{ level3.name }}
+							</li>
+			 			</ul>
+				</li>
+			 </ul>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,553 @@
+{
+    "index": {
+        "d9470189421649a79275a6dcfce54b78/": {
+            "type": "categorical_array",
+            "id": "d9470189421649a79275a6dcfce54b78",
+            "name": "Recommendation",
+            "description": "How likely are you to recommend . . . [Asked of up to three randomly-assigned browsers respondent is aware of]"
+        },
+        "097ca410337f444caea2f7455ef090b4/": {
+            "type": "categorical_array",
+            "id": "097ca410337f444caea2f7455ef090b4",
+            "name": "Firefox Personality Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "08ebb9531f04458abcef406d3042b0b2/": {
+            "type": "categorical",
+            "id": "08ebb9531f04458abcef406d3042b0b2",
+            "name": "Sign-in Usage (Frequency)",
+            "description": "And how frequently do you sign in to Chrome? [Asked if uses Chrome sign-in]"
+        },
+        "bd8d988369884e5dabcc0fa3c32fa75b/": {
+            "type": "categorical_array",
+            "id": "bd8d988369884e5dabcc0fa3c32fa75b",
+            "name": "Sign-in Benefits (Awareness)",
+            "description": "Now assume you're signed in to Chrome. To what extent do you think that the following would be true for signed-in users? When I sign in to Chrome . . ."
+        },
+        "b4acfe23b775435da9ab897a03aaabe8/": {
+            "type": "categorical",
+            "id": "b4acfe23b775435da9ab897a03aaabe8",
+            "name": "Firefox Privacy Performance -- Personal information safety",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "7be4380d12d14883bd32788d8e8272a4/": {
+            "type": "multiple_response",
+            "id": "7be4380d12d14883bd32788d8e8272a4",
+            "name": "Reasons for Non-Primary Usage",
+            "description": "Earlier you mentioned you use Chrome at work, but it's not your primary internet browser for work purposes. Why not? Please select all that apply from the list below. [Asked if uses Chrome at work, but not as primary browser]"
+        },
+        "23835e9a9a87490494461389eef4c8a6/": {
+            "type": "categorical",
+            "id": "23835e9a9a87490494461389eef4c8a6",
+            "name": "Firefox Privacy Performance -- Financial information storage",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "e96b447b225845b9932c5fee4675da7c/": {
+            "type": "categorical",
+            "id": "e96b447b225845b9932c5fee4675da7c",
+            "name": "Tablet OS",
+            "description": "And thinking about the tablet that you use most frequently, which operating system is it powered by? [Asked if owns tablet]"
+        },
+        "1c41801650864b79a6ee9dc8a5cc2242/": {
+            "type": "categorical",
+            "id": "1c41801650864b79a6ee9dc8a5cc2242",
+            "name": "Awareness",
+            "description": "Did you know that Chrome is available for use at work? [Asked if does not use Chrome for work]"
+        },
+        "d60b35a76377450a9ff6e334717fbccc/": {
+            "type": "multiple_response",
+            "id": "d60b35a76377450a9ff6e334717fbccc",
+            "name": "Usage (By Location) -- Personal Computer",
+            "description": "And where do you tend to use each of the following internet browsers? [Asked if owns smartphone, tablet, laptop, or desktop]"
+        },
+        "f3024324d25442978d3a73e8e8796d88/": {
+            "type": "categorical_array",
+            "id": "f3024324d25442978d3a73e8e8796d88",
+            "name": "Safari Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Safari? [Asked if aware of Safari and randomly assigned to see questions about Safari]"
+        },
+        "ed933347c47f4f959b80bccbaebd9111/": {
+            "type": "categorical_array",
+            "id": "ed933347c47f4f959b80bccbaebd9111",
+            "name": "Yandex Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Chrome? [Asked if aware of Chrome and randomly assigned to see questions about Yandex]"
+        },
+        "45e3d16219784ae7a6ef70bad429c90b/": {
+            "type": "categorical_array",
+            "id": "45e3d16219784ae7a6ef70bad429c90b",
+            "name": "Aided Awareness",
+            "description": "Have you heard of any of following Chrome products?"
+        },
+        "ff30969f836f43e6801789557c683725/": {
+            "type": "numeric",
+            "id": "ff30969f836f43e6801789557c683725",
+            "name": "weight",
+            "description": ""
+        },
+        "4ddddd25dda14af788e275baf454f6a3/": {
+            "type": "multiple_response",
+            "id": "4ddddd25dda14af788e275baf454f6a3",
+            "name": "Browser Device Availability -- Yandex.Browser",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "701097522ef0478da8a21f2221f8c487/": {
+            "type": "categorical_array",
+            "id": "701097522ef0478da8a21f2221f8c487",
+            "name": "Yandex Personal Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely,' to what degree do you believe each of the following characteristics apply to \\underline{Yandex}? [Asked if aware of Yandex and randomly assigned to see questions about Yandex]"
+        },
+        "15380a7c74f34238916c8b34a674c9b4/": {
+            "type": "categorical",
+            "id": "15380a7c74f34238916c8b34a674c9b4",
+            "name": "Firefox Privacy Performance -- Selling data",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "0c77bb24a5f140e98b8a867d6621b9ed/": {
+            "type": "categorical",
+            "id": "0c77bb24a5f140e98b8a867d6621b9ed",
+            "name": "Firefox Privacy Performance -- Tracking",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "1696d32df87b4238a929f51b8ac9d3ff/": {
+            "type": "categorical",
+            "id": "1696d32df87b4238a929f51b8ac9d3ff",
+            "name": "Sign-in Awareness",
+            "description": "Did you know you could sign in to Chrome?"
+        },
+        "51aa72fbcc66428e914f2b76d2df0a08/": {
+            "type": "categorical",
+            "id": "51aa72fbcc66428e914f2b76d2df0a08",
+            "name": "Firefox Privacy Performance -- Privacy Tools/Settings",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "d814207043ec4e0b864185376cffbef3/": {
+            "type": "categorical",
+            "id": "d814207043ec4e0b864185376cffbef3",
+            "name": "Firefox Privacy Performance -- No harmful content",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "6bb6fa17a3364c5eafb24dab35768e4b/": {
+            "type": "categorical",
+            "id": "6bb6fa17a3364c5eafb24dab35768e4b",
+            "name": "Firefox Privacy Performance -- Child-safe",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "3e51024e1f654a66b8628acaab41fa93/": {
+            "type": "categorical_array",
+            "id": "3e51024e1f654a66b8628acaab41fa93",
+            "name": "Chrome Personality Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Chrome? [Asked if aware of Chrome and randomly assigned to see questions about Chrome]"
+        },
+        "9a97c4bc5efa42fc833172d78246edfe/": {
+            "type": "multiple_response",
+            "id": "9a97c4bc5efa42fc833172d78246edfe",
+            "name": "Usage (By Location) -- Work Computer",
+            "description": "And where do you tend to use each of the following internet browsers? [Asked if owns smartphone, tablet, laptop, or desktop]"
+        },
+        "2b8953810ed44b89986b2783dd572585/": {
+            "type": "categorical_array",
+            "id": "2b8953810ed44b89986b2783dd572585",
+            "name": "Yandex Privacy Performance",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Yandex? [Asked if aware of Chrome and randomly assigned to see questions about Yandex]"
+        },
+        "ba4bbf3a46514d3eb815e8b7dd7d9329/": {
+            "type": "categorical_array",
+            "id": "ba4bbf3a46514d3eb815e8b7dd7d9329",
+            "name": "Internet Explorer Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Internet Explorer? [Asked if aware of IE and randomly assigned to see questions about IE]"
+        },
+        "831dde5719964eee98965c64e5443308/": {
+            "type": "categorical_array",
+            "id": "831dde5719964eee98965c64e5443308",
+            "name": "Safari Privacy Performance",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Safari? [Asked if aware of Safari and randomly assigned to see questions about Safari]"
+        },
+        "e41a187d38354d9aa807ce1d7f79edc1/": {
+            "type": "categorical",
+            "id": "e41a187d38354d9aa807ce1d7f79edc1",
+            "name": "Firefox Privacy Performance -- Auto-complete",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "a17a5763958243599f3bd1d2173c7b51/": {
+            "type": "multiple_response",
+            "id": "a17a5763958243599f3bd1d2173c7b51",
+            "name": "Browser Device Availability -- Opera/Opera Mini",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "7e77611d3f14491cb7775ec62603a26c/": {
+            "type": "categorical_array",
+            "id": "7e77611d3f14491cb7775ec62603a26c",
+            "name": "Usage (Overall)",
+            "description": "And how often do you use each of the following browsers? [Asked if aware of browser]"
+        },
+        "758da04012d44306b80abcfe65a5d3aa/": {
+            "type": "numeric",
+            "id": "758da04012d44306b80abcfe65a5d3aa",
+            "name": "caseid",
+            "description": ""
+        },
+        "9df3f2f7a0744e898455f78ed304c596/": {
+            "type": "multiple_response",
+            "id": "9df3f2f7a0744e898455f78ed304c596",
+            "name": "Reasons for Non-Usage",
+            "description": "Earlier you mentioned you don't use Chrome at work. Why not? Please select all that apply from the list below. [Asked if uses internet at work, but not Chrome]"
+        },
+        "9191c17025774bdd8196933b93aa68b5/": {
+            "type": "categorical_array",
+            "id": "9191c17025774bdd8196933b93aa68b5",
+            "name": "Browser Familiarity",
+            "description": "Thinking about the internet browsers you recognize, which of the following describes how well, or not, you know them? [Asked if aware of browser]"
+        },
+        "bd95441005694fb6a1769609f6f47264/": {
+            "type": "datetime",
+            "id": "bd95441005694fb6a1769609f6f47264",
+            "name": "Wave",
+            "description": ""
+        },
+        "be6cb6b488fa4bcb9a0162bd7f3c3367/": {
+            "type": "numeric",
+            "id": "be6cb6b488fa4bcb9a0162bd7f3c3367",
+            "name": "Net Promoter -- Opera/Opera Mini",
+            "description": "Net Promoter Score"
+        },
+        "d23e12bdca664442a18b724e6c2fbd4f/": {
+            "type": "multiple_response",
+            "id": "d23e12bdca664442a18b724e6c2fbd4f",
+            "name": "Combined responses from Aided Awareness (Overall) (1)",
+            "description": "Combined responses from Aided Awareness (Overall)"
+        },
+        "02d5595290a843259219461e97a3bddf/": {
+            "type": "categorical",
+            "id": "02d5595290a843259219461e97a3bddf",
+            "name": "Firefox Privacy Performance -- Personal information storage",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "61ff1b3c463149acb5fb5ac90a3481ad/": {
+            "type": "multiple_response",
+            "id": "61ff1b3c463149acb5fb5ac90a3481ad",
+            "name": "Unaided Awareness",
+            "description": "Can you think of any other products that have Chrome in the name? Please name as many as you can think of. If you can't think of any, please leave the space blank. [Coded from unaided responses]"
+        },
+        "3ab936ea51ba4687a5daf35337899adb/": {
+            "type": "categorical_array",
+            "id": "3ab936ea51ba4687a5daf35337899adb",
+            "name": "Firefox Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "d4135877d5004c558ee133e2daa99006/": {
+            "type": "categorical_array",
+            "id": "d4135877d5004c558ee133e2daa99006",
+            "name": "Primary Browser Satisfaction",
+            "description": "And how satisfied are you with your primary browser? [Asked if owns smartphone, tablet, laptop, or desktop, and aware of a major browser]"
+        },
+        "6013f5dd037248cba7215874985a4875/": {
+            "type": "categorical_array",
+            "id": "6013f5dd037248cba7215874985a4875",
+            "name": "Opera Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Opera/Opera Mini? [Asked if aware of Opera and randomly assigned to see questions about Opera]"
+        },
+        "29bdbe77179841cc93f8377628fd9262/": {
+            "type": "categorical_array",
+            "id": "29bdbe77179841cc93f8377628fd9262",
+            "name": "Favorability (Desktop)",
+            "description": "Which of the following best describes how you feel about each of the following internet browsers you might use on your desktop or laptop? [Asked of up to three randomly-assigned browsers respondent is aware of]"
+        },
+        "b122bff4025e4958914871e8fede8ee3/": {
+            "type": "categorical_array",
+            "id": "b122bff4025e4958914871e8fede8ee3",
+            "name": "Internet Explorer Privacy Performance",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Internet Explorer? [Asked if aware of IE and randomly assigned to see questions about IE]"
+        },
+        "579bee964d214c50826e129623a15b7d/": {
+            "type": "categorical_array",
+            "id": "579bee964d214c50826e129623a15b7d",
+            "name": "Favorability (Mobile)",
+            "description": "Which of the following best describes how you feel about each of the following internet browsers you might use on your smartphone or tablet mobile device? [Asked of up to three randomly-assigned browsers respondent is aware of]"
+        },
+        "b614ead8ea7e47be8d9f465504c768a6/": {
+            "type": "categorical",
+            "id": "b614ead8ea7e47be8d9f465504c768a6",
+            "name": "Operating System",
+            "description": ""
+        },
+        "892239e68cbd4b6ca84946c1c64a6aa1/": {
+            "type": "categorical_array",
+            "id": "892239e68cbd4b6ca84946c1c64a6aa1",
+            "name": "Sign-in Benefits (Utility)",
+            "description": "And how useful, or not, do you consider the following benefits of signing in to Chrome?"
+        },
+        "9c57dc96357244d280696efc6e2a79b7/": {
+            "type": "categorical",
+            "id": "9c57dc96357244d280696efc6e2a79b7",
+            "name": "Firefox Privacy Performance -- Collecting more personal information",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "48e5367b022242f3aac36adb8e95b8eb/": {
+            "type": "categorical",
+            "id": "48e5367b022242f3aac36adb8e95b8eb",
+            "name": "Sign-in Usage",
+            "description": "Have you ever signed in to Chrome before? [Asked if aware of Chrome sign-in]"
+        },
+        "bf778c81db51460f8cd54c93a8f41c1b/": {
+            "type": "multiple_response",
+            "id": "bf778c81db51460f8cd54c93a8f41c1b",
+            "name": "Aided Awareness (Overall)",
+            "description": "Which of the following internet browsers have you heard of? Check all that apply."
+        },
+        "bf642caba0654d019878046f5b57f8a2/": {
+            "type": "categorical_array",
+            "id": "bf642caba0654d019878046f5b57f8a2",
+            "name": "Internet Explorer Personality Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Internet Explorer? [Asked if aware of IE and randomly assigned to see questions about IE]"
+        },
+        "c67f1ab24f154dba816b268234688aff/": {
+            "type": "categorical",
+            "id": "c67f1ab24f154dba816b268234688aff",
+            "name": "Firefox Privacy Performance -- Personal data misuse",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "6d303cd227d94ae2a8d74fa0af822125/": {
+            "type": "multiple_response",
+            "id": "6d303cd227d94ae2a8d74fa0af822125",
+            "name": "Usage (Chrome Features)",
+            "description": "And which of these Chrome features do you actually use? Select all that apply. [Asked of Chrome features respondent is aware of]"
+        },
+        "b85403e054424f0983177ab25f5543c2/": {
+            "type": "multiple_response",
+            "id": "b85403e054424f0983177ab25f5543c2",
+            "name": "Unaided Awareness (Mobile)",
+            "description": "And have you heard of any internet browsers for mobile phones and tablets? Please name as many as you can think of. If you can't think of any, please leave the space blank. [Coded from unaided responses]"
+        },
+        "cf54eda54d5a40f1919afd69335c6ede/": {
+            "type": "categorical",
+            "id": "cf54eda54d5a40f1919afd69335c6ede",
+            "name": "Chrome User",
+            "description": ""
+        },
+        "e2c3647faf594f36ac8263b8bf68d0e8/": {
+            "type": "numeric",
+            "id": "e2c3647faf594f36ac8263b8bf68d0e8",
+            "name": "Net Promoter -- Internet Explorer",
+            "description": "Net Promoter Score"
+        },
+        "21a0ef2b45a64a7699517b4c1ce7d713/": {
+            "type": "categorical",
+            "id": "21a0ef2b45a64a7699517b4c1ce7d713",
+            "name": "Firefox Privacy Performance -- No immoral/illegal content",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "26931c52752e49d29fe878f97fe711bb/": {
+            "type": "categorical_array",
+            "id": "26931c52752e49d29fe878f97fe711bb",
+            "name": "Chrome Functional Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Chrome? [Asked if aware of Chrome and randomly assigned to see questions about Chrome]"
+        },
+        "70ea4458f90848f389ec030bf26bde38/": {
+            "type": "categorical_array",
+            "id": "70ea4458f90848f389ec030bf26bde38",
+            "name": "Primary Browser (By Location)",
+            "description": "Which browser would you say is your primary browser (the browser you use more than any other)? [Asked if owns smartphone, tablet, laptop, or desktop and uses browser]"
+        },
+        "b902661445724fe5bdb7ede4ba57534d/": {
+            "type": "categorical_array",
+            "id": "b902661445724fe5bdb7ede4ba57534d",
+            "name": "Chrome Privacy Performance",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Chrome? [Asked if aware of Chrome and randomly assigned to see questions about Chrome]"
+        },
+        "f2e604be364547b4ac68815f4dcf85c3/": {
+            "type": "multiple_response",
+            "id": "f2e604be364547b4ac68815f4dcf85c3",
+            "name": "Buzz (Awareness by Source)",
+            "description": "And where did you see or hear about Chrome? [Asked if heard, read, or saw something about Chrome in last month]"
+        },
+        "15ba91a72de046b7acd22468c3a195c4/": {
+            "type": "multiple_response",
+            "id": "15ba91a72de046b7acd22468c3a195c4",
+            "name": "Awareness (Chrome Features)",
+            "description": "Which of the following features are available on Chrome? Select all that apply."
+        },
+        "ffb7ef4581dd4e1e939cc4c25d97c44a/": {
+            "type": "categorical_array",
+            "id": "ffb7ef4581dd4e1e939cc4c25d97c44a",
+            "name": "Logo / Brand Match",
+            "description": "Now, we'd like you to match each of the following icons to a name, or select \"don't know\" if you're not sure. [Respondent asked to match logo and name]"
+        },
+        "22225a9ff7064e21a376c9d1cfbb05d8/": {
+            "type": "multiple_response",
+            "id": "22225a9ff7064e21a376c9d1cfbb05d8",
+            "name": "Combined responses from Aided Awareness (Overall)",
+            "description": "Combined responses from Aided Awareness (Overall)"
+        },
+        "1d1fe6e4719c48a181738771bc68f6da/": {
+            "type": "multiple_response",
+            "id": "1d1fe6e4719c48a181738771bc68f6da",
+            "name": "Browser Device Availability -- Dolphin",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "ea29319a7e6044ceb2781e91ec09c947/": {
+            "type": "multiple_response",
+            "id": "ea29319a7e6044ceb2781e91ec09c947",
+            "name": "Browser Device Availability -- Internet Explorer",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "94402c3a10974bf799a1ab740288d781/": {
+            "type": "numeric",
+            "id": "94402c3a10974bf799a1ab740288d781",
+            "name": "Net Promoter -- Firefox",
+            "description": "Net Promoter Score"
+        },
+        "9918dc1b357b47de9d000a7377662f42/": {
+            "type": "categorical",
+            "id": "9918dc1b357b47de9d000a7377662f42",
+            "name": "Smartphone OS (primary)",
+            "description": "And thinking about the smartphone that you use most frequently, which operating system is it powered by? [Asked if owns smartphone]"
+        },
+        "4002637b39594d67b8bc3433624bc7e9/": {
+            "type": "categorical_array",
+            "id": "4002637b39594d67b8bc3433624bc7e9",
+            "name": "Favorability (Parent brand)",
+            "description": "Which of the following best describes how you feel about the internet brands below?"
+        },
+        "2eb797cdd17c4e0884b0ef70cd171002/": {
+            "type": "categorical",
+            "id": "2eb797cdd17c4e0884b0ef70cd171002",
+            "name": "Buzz (Awareness)",
+            "description": "Have you read, heard, or seen anything about Chrome during the last month?"
+        },
+        "b6f57377d0e14694a183dd79db9eaf04/": {
+            "type": "multiple_response",
+            "id": "b6f57377d0e14694a183dd79db9eaf04",
+            "name": "Internet Devices Used",
+            "description": "And which of the following devices do you use to access the internet?"
+        },
+        "0670609c525e45e2aebe97634c9b0b68/": {
+            "type": "categorical_array",
+            "id": "0670609c525e45e2aebe97634c9b0b68",
+            "name": "Opera Privacy Performance",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Opera/Opera Mini? [Asked if aware of Opera and randomly assigned to see questions about Opera]"
+        },
+        "1193e911122742be874251c7501f5b44/": {
+            "type": "numeric",
+            "id": "1193e911122742be874251c7501f5b44",
+            "name": "Net Promoter -- Chrome",
+            "description": "Net Promoter Score"
+        },
+        "e3d32704d78042c5823bc4fe76909e97/": {
+            "type": "categorical",
+            "id": "e3d32704d78042c5823bc4fe76909e97",
+            "name": "Firefox Privacy Performance -- Respects privacy",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following statements apply to Firefox? [Asked if aware of Firefox and randomly assigned to see questions about Firefox]"
+        },
+        "129a5224eb724ecda025130eb1840f17/": {
+            "type": "categorical_array",
+            "id": "129a5224eb724ecda025130eb1840f17",
+            "name": "Browser Consideration Set (by location)",
+            "description": "And which browsers are you likely to consider? [Asked if likely to switch browsers in next 3 months]"
+        },
+        "df413632300941bb84e37724d9b3c409/": {
+            "type": "multiple_response",
+            "id": "df413632300941bb84e37724d9b3c409",
+            "name": "Usage (By Location) -- Smartphone",
+            "description": "And where do you tend to use each of the following internet browsers? [Asked if owns smartphone, tablet, laptop, or desktop]"
+        },
+        "d47b146cf6c244bcaa03f94a7a8c5441/": {
+            "type": "categorical",
+            "id": "d47b146cf6c244bcaa03f94a7a8c5441",
+            "name": "Gender",
+            "description": "Are you male or female?"
+        },
+        "5d50a801398c47a0820d2860c97eaa2e/": {
+            "type": "categorical_array",
+            "id": "5d50a801398c47a0820d2860c97eaa2e",
+            "name": "Google 2.0 Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Chrome?"
+        },
+        "734e4316a0584a4b928b3d4edaeb95d3/": {
+            "type": "multiple_response",
+            "id": "734e4316a0584a4b928b3d4edaeb95d3",
+            "name": "Usage (By Location) -- Tablet",
+            "description": "And where do you tend to use each of the following internet browsers? [Asked if owns smartphone, tablet, laptop, or desktop]"
+        },
+        "b06ade42803d4e33b55a39c95873b41d/": {
+            "type": "multiple_response",
+            "id": "b06ade42803d4e33b55a39c95873b41d",
+            "name": "Browser Device Availability -- Firefox",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "9b7f9e233c55420aaba62bd08e71af0a/": {
+            "type": "categorical",
+            "id": "9b7f9e233c55420aaba62bd08e71af0a",
+            "name": "First Chrome Use",
+            "description": "When did you first start using Chrome? [Asked if used Chrome in last year]"
+        },
+        "a603c924903f4c0ba0b446ec0e12565b/": {
+            "type": "numeric",
+            "id": "a603c924903f4c0ba0b446ec0e12565b",
+            "name": "Net Promoter -- Safari",
+            "description": "Net Promoter Score"
+        },
+        "83bff062d5594afe876cc7a8f513762f/": {
+            "type": "categorical",
+            "id": "83bff062d5594afe876cc7a8f513762f",
+            "name": "Unaided Awareness (Parent Brand)",
+            "description": "Which company is responsible for making Chrome? [Coded from unaided responses]"
+        },
+        "854dcfc495b643829c666260aa4c473d/": {
+            "type": "categorical_array",
+            "id": "854dcfc495b643829c666260aa4c473d",
+            "name": "Familiarity",
+            "description": "And which of the following describes how well, or not, you know them? [Asked if aware of product]"
+        },
+        "cdee3f5d8d494528b3eb3c4c91aa150e/": {
+            "type": "multiple_response",
+            "id": "cdee3f5d8d494528b3eb3c4c91aa150e",
+            "name": "Browser Device Availability -- Safari",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "ade74f112ea44bedb363f357ce7e8c9d/": {
+            "type": "categorical",
+            "id": "ade74f112ea44bedb363f357ce7e8c9d",
+            "name": "Google Account",
+            "description": "A Google Account makes it easy to access all Google products with one username and password. For instance, when you sign in to Gmail, you're using a Google Account to access your email inbox. If you sign in to YouTube or Google+ using your Google Account, you can access features like commenting, managing subscriptions, sharing and uploading videos. Across other services, your Google Account lets you access personalized features, and allows you to safely store your stuff so you can get to it from any device. Do you have a Google account?"
+        },
+        "11522f1a2a414378b58d8d49e377dec3/": {
+            "type": "categorical",
+            "id": "11522f1a2a414378b58d8d49e377dec3",
+            "name": "Country",
+            "description": ""
+        },
+        "1e18887030434b5c94c42fc662b6f46f/": {
+            "type": "multiple_response",
+            "id": "1e18887030434b5c94c42fc662b6f46f",
+            "name": "Unaided Awareness (Desktop)",
+            "description": "Internet browsers are programs on your computer that enable you to view websites. Which internet browsers have you heard of? *Please name as many as you can think of. If you can't think of any, please leave the space blank. [Coded from unaided responses]"
+        },
+        "e9ae13b9185746d3b1038c900445e2a8/": {
+            "type": "categorical_array",
+            "id": "e9ae13b9185746d3b1038c900445e2a8",
+            "name": "Safari Personality Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Safari? [Asked if aware of Safari and randomly assigned to see questions about Safari]"
+        },
+        "5a20ab22dad04df09e6b1924d314eaac/": {
+            "type": "categorical_array",
+            "id": "5a20ab22dad04df09e6b1924d314eaac",
+            "name": "Opera Personality Attributes",
+            "description": "On a scale of 1 to 5, where 1 means 'not at all' and 5 means 'completely', to what degree do you believe each of the following characteristics apply to Opera/Opera Mini? [Asked if aware of Opera and randomly assigned to see questions about Opera]"
+        },
+        "ee716deb8db94a0fab8e7981e9edb43f/": {
+            "type": "multiple_response",
+            "id": "ee716deb8db94a0fab8e7981e9edb43f",
+            "name": "Browser Device Availability -- Chrome",
+            "description": "Thinking about the internet browsers you recognize, on which platforms are they available? Please check all that apply. [Asked if aware of browser]"
+        },
+        "7f8ddb3abf5244b6b9f0524d8b7324e1/": {
+            "type": "multiple_response",
+            "id": "7f8ddb3abf5244b6b9f0524d8b7324e1",
+            "name": "Aided Awareness (Logo)",
+            "description": "And which of the following internet browsers do you recognize? Check all that apply. [Respondents shown company logos]"
+        }
+    },
+    "description": "List of Variables of this dataset",
+    "self": "/variables",
+    "element": "shoji:catalog"
+}

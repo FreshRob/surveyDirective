@@ -1,0 +1,154 @@
+{
+    "graph": [
+        {
+            "Key Performance Indicators": [
+                {
+                    "Net Promoter": [
+                        "1193e911122742be874251c7501f5b44/",
+                        "e2c3647faf594f36ac8263b8bf68d0e8/",
+                        "94402c3a10974bf799a1ab740288d781/",
+                        "a603c924903f4c0ba0b446ec0e12565b/",
+                        "be6cb6b488fa4bcb9a0162bd7f3c3367/"
+                    ]
+                },
+                {
+                    "Aided Awareness": [
+                        "bf778c81db51460f8cd54c93a8f41c1b/",
+                        "7f8ddb3abf5244b6b9f0524d8b7324e1/"
+                    ]
+                },
+                {
+                    "Primary Browser": [
+                        "70ea4458f90848f389ec030bf26bde38/",
+                        "d4135877d5004c558ee133e2daa99006/"
+                    ]
+                },
+                {
+                    "Unaided Awareness": [
+                        "1e18887030434b5c94c42fc662b6f46f/",
+                        "b85403e054424f0983177ab25f5543c2/",
+                        "83bff062d5594afe876cc7a8f513762f/"
+                    ]
+                },
+                {
+                    "Browser Device Availability": [
+                        "ee716deb8db94a0fab8e7981e9edb43f/",
+                        "ea29319a7e6044ceb2781e91ec09c947/",
+                        "b06ade42803d4e33b55a39c95873b41d/",
+                        "cdee3f5d8d494528b3eb3c4c91aa150e/",
+                        "a17a5763958243599f3bd1d2173c7b51/",
+                        "1d1fe6e4719c48a181738771bc68f6da/",
+                        "4ddddd25dda14af788e275baf454f6a3/"
+                    ]
+                },
+                {
+                    "Usage (By Location)": [
+                        "d60b35a76377450a9ff6e334717fbccc/",
+                        "9a97c4bc5efa42fc833172d78246edfe/",
+                        "df413632300941bb84e37724d9b3c409/",
+                        "734e4316a0584a4b928b3d4edaeb95d3/"
+                    ]
+                },
+                "9191c17025774bdd8196933b93aa68b5/",
+                "7e77611d3f14491cb7775ec62603a26c/",
+                "ffb7ef4581dd4e1e939cc4c25d97c44a/",
+                "d9470189421649a79275a6dcfce54b78/",
+                "2eb797cdd17c4e0884b0ef70cd171002/",
+                "f2e604be364547b4ac68815f4dcf85c3/",
+                "9b7f9e233c55420aaba62bd08e71af0a/",
+                "129a5224eb724ecda025130eb1840f17/"
+            ]
+        },
+        {
+            "Chrome Features": [
+                "6d303cd227d94ae2a8d74fa0af822125/",
+                "15ba91a72de046b7acd22468c3a195c4/",
+                "1696d32df87b4238a929f51b8ac9d3ff/",
+                "48e5367b022242f3aac36adb8e95b8eb/",
+                "08ebb9531f04458abcef406d3042b0b2/",
+                "bd8d988369884e5dabcc0fa3c32fa75b/",
+                "892239e68cbd4b6ca84946c1c64a6aa1/"
+            ]
+        },
+        {
+            "Brand Image": [
+                "29bdbe77179841cc93f8377628fd9262/",
+                "579bee964d214c50826e129623a15b7d/",
+                "4002637b39594d67b8bc3433624bc7e9/",
+                "5d50a801398c47a0820d2860c97eaa2e/",
+                "26931c52752e49d29fe878f97fe711bb/",
+                "ba4bbf3a46514d3eb815e8b7dd7d9329/",
+                "3ab936ea51ba4687a5daf35337899adb/",
+                "f3024324d25442978d3a73e8e8796d88/",
+                "6013f5dd037248cba7215874985a4875/",
+                "ed933347c47f4f959b80bccbaebd9111/",
+                "3e51024e1f654a66b8628acaab41fa93/",
+                "bf642caba0654d019878046f5b57f8a2/",
+                "097ca410337f444caea2f7455ef090b4/",
+                "e9ae13b9185746d3b1038c900445e2a8/",
+                "5a20ab22dad04df09e6b1924d314eaac/",
+                "701097522ef0478da8a21f2221f8c487/"
+            ]
+        },
+        {
+            "Privacy": [
+                "b902661445724fe5bdb7ede4ba57534d/",
+                "b122bff4025e4958914871e8fede8ee3/",
+                "e3d32704d78042c5823bc4fe76909e97/",
+                "b4acfe23b775435da9ab897a03aaabe8/",
+                "02d5595290a843259219461e97a3bddf/",
+                "23835e9a9a87490494461389eef4c8a6/",
+                "e41a187d38354d9aa807ce1d7f79edc1/",
+                "0c77bb24a5f140e98b8a867d6621b9ed/",
+                "51aa72fbcc66428e914f2b76d2df0a08/",
+                "c67f1ab24f154dba816b268234688aff/",
+                "9c57dc96357244d280696efc6e2a79b7/",
+                "15380a7c74f34238916c8b34a674c9b4/",
+                "6bb6fa17a3364c5eafb24dab35768e4b/",
+                "d814207043ec4e0b864185376cffbef3/",
+                "21a0ef2b45a64a7699517b4c1ce7d713/",
+                "831dde5719964eee98965c64e5443308/",
+                "0670609c525e45e2aebe97634c9b0b68/",
+                "2b8953810ed44b89986b2783dd572585/"
+            ]
+        },
+        {
+            "Chrome at Work": [
+                "1c41801650864b79a6ee9dc8a5cc2242/",
+                "9df3f2f7a0744e898455f78ed304c596/",
+                "7be4380d12d14883bd32788d8e8272a4/"
+            ]
+        },
+        {
+            "Other Chrome Products": [
+                "61ff1b3c463149acb5fb5ac90a3481ad/",
+                "45e3d16219784ae7a6ef70bad429c90b/",
+                "854dcfc495b643829c666260aa4c473d/"
+            ]
+        },
+        {
+            "Demographics": [
+                "d47b146cf6c244bcaa03f94a7a8c5441/",
+                "ade74f112ea44bedb363f357ce7e8c9d/",
+                "cf54eda54d5a40f1919afd69335c6ede/",
+                "b6f57377d0e14694a183dd79db9eaf04/",
+                "9918dc1b357b47de9d000a7377662f42/",
+                "e96b447b225845b9932c5fee4675da7c/",
+                "b614ead8ea7e47be8d9f465504c768a6/"
+            ]
+        },
+        {
+            "Dimensions": [
+                "11522f1a2a414378b58d8d49e377dec3/",
+                "bd95441005694fb6a1769609f6f47264/"
+            ]
+        },
+        "ff30969f836f43e6801789557c683725/",
+        "758da04012d44306b80abcfe65a5d3aa/",
+        "22225a9ff7064e21a376c9d1cfbb05d8/",
+        "d23e12bdca664442a18b724e6c2fbd4f/"
+    ],
+    "self": "/order",
+    "description": "Hierarchical order of dataset variables",
+    "element": "shoji:order"
+}
