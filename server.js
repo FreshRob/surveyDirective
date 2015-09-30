@@ -7,10 +7,7 @@ var port = Number(process.env.PORT || 8000),
 app.use("/", express.static(__dirname + '/'));
 
 server.listen(port, function(req, res) {
-  
 
   console.log("Express server listening on port %d", port);
-
-
-
+  
 });
