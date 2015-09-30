@@ -1,28 +1,20 @@
 'use strict'
-angular.module("yg.shared.services", []).
-factory("variableService", ['$q', 'variableApiService' , function($q, variableApiService){
+angular.module("yg.shared.services", [])
+.factory("variableService", ['$q', 'variableApiService' , function($q, variableApiService){
 	return {
 		getVariablePosition: function(variableName){
-			return getVariableOrderAndVariables(function(variables, variableOrder){
-				var variableIndex =  getVariableIndex(variableName, variables);
-				return getVariableOrderPosition(variableIndex, variableOrder)
+			return getVariableOrderAndVariables(function(variables, variableOrder){						
+				return getVariablePosition(variableName, variables, variableOrder)
 			}, function(){
-				return 0;
+				return -1;
 			});
 		},
-		getVaritionFromPosition: function(variablePosition){
-			if(isNaN(variablePosition) || variablePosition < 1){
-				return $q(function(resolve, reject){
-					reject(undefined)
-				});
-			}
-
+		getVariableFromPosition: function(variablePosition){	
 			return getVariableOrderAndVariables(function(variables, variableOrder){
-				return getVariableFromPosition(variablePosition, variableOrders, variables);
+				return getVariableFromPosition(variablePosition, variableOrder, variables);
 			}, function(){
-				return 0;
+				return undefined;
 			});
-
 		},
 		getOrders: getOrders,
 		getVariables: getVariables
@@ -43,14 +35,18 @@ factory("variableService", ['$q', 'variableApiService' , function($q, variableAp
 			variableApiService.getVariables().then(function(result){
 				resolve(result.data.index);
 			}, function(){
-				reject([]);
+				reject({});
 			})
 		});
 	}
 
-	function getVariableFromPosition(variablePosition, variableOrders, variables){
-		var order = getOrder1LayerList(variableOrder);
-		var varibleIndex = order[variablePosition];
+	function getVariableFromPosition(variablePosition, variableOrder, variables){
+		if(isNaN(variablePosition) || variablePosition < 0 ){
+			return undefined;
+		}
+
+		var order = getflatListOfOrderedVariables(variableOrder);
+		var variableIndex = order[variablePosition];
 		return (!variableIndex) ? undefined : variables[variableIndex];
 	}
 
@@ -66,8 +62,14 @@ factory("variableService", ['$q', 'variableApiService' , function($q, variableAp
 	}
 
 
-	function getVariableOrderPosition(variableIndex, variableOrder){
-		var order = getOrder1LayerList(variableOrder);
+	function getVariablePosition(variableName, variables, variableOrder){
+		var variableIndex =  getVariableIndex(variableName, variables);	
+
+		if(!variableIndex) {
+			return -1
+		}
+
+		var order = getflatListOfOrderedVariables(variableOrder);
 
 		for(var i = 0; i < order.length; i++){
 			if(order[i] == variableIndex){
@@ -75,33 +77,43 @@ factory("variableService", ['$q', 'variableApiService' , function($q, variableAp
 			}
 		}
 
-		return 0;		
+		return -1;		
 	}
 
-	function getOrder1LayerList(variableOrder){
-		var order = [];
-		variableOrder.forEach(function(orderItem){
-			switch(typeof orderItem){
-				case "string":
-				order.push(orderItem);
-				return;
-				case "object":
-				Object.keys(orderItem).forEach(function(key){
-					orderItem[key].forEach(function(item){
-						order.push(item)
-					})
-				});		
-				return;
-			}	
-		});
-		return order;
-	};
+
+	function getflatListOfOrderedVariables(orderItem){
+		var list = []
+		switch(typeof orderItem){
+			case "string":
+			list.push(orderItem);
+				return list;
+			case "object": 
+			Object.keys(orderItem).forEach(function(key){
+
+				var childHierarchy = getflatListOfOrderedVariables(orderItem[key])
+
+				if(isNaN(key)){
+					list.push(key);
+					list = list.concat(childHierarchy)
+					return;
+				}
+
+				childHierarchy.forEach(function(item){
+					list.push(item);
+				});
+				return list;						
+			})
+		}
+		return list;
+	}
 
 	function getVariableIndex(variableName, variables){
 		var keys = Object.keys(variables)
 		for(var i = 0; i< keys.length; i++) {
-			if(i.name == variableName) {
-				return keys[i];
+			var key = keys[i];
+			var variable = variables[key];
+			if(variable.name == variableName) {
+				return key;
 			}
 		}
 	}

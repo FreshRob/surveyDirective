@@ -9,35 +9,37 @@ module.exports = function(config){
       'node_modules/angular-mocks/angular-mocks.js',
       'src/app/**/*.js',
       'src/tests/*.js',
+      'src/app/**/*.html'
     ],
     exclude: [
       'src/tests/karma.conf.js',
+      'src/app/app.js',
     ],
     preprocessors: {
-      //'src/app/**/*.js': ['coverage'],
+     // 'src/app/**/*.js': ['coverage'],
       'src/app/**/*.html': ['ng-html2js']
     },
     
     autoWatch : true,
-    ngHtml2JsPreprocessor: {     
-      prependPrefix: 'app/'
-    },
-    coverageReporter: {
-      instrumenterOptions: {
-        istanbul: { noCompact: true }
-      }
-    },
+
     frameworks: ['jasmine'],
-
     browsers : ['Chrome'],
-    reporters: ['coverage'], 
-
+    reporters: ['progress', 'coverage'],
     plugins : [
             'karma-chrome-launcher',
             'karma-jasmine',
             'karma-ng-html2js-preprocessor',
             'karma-coverage',
-            ]
+            ],
 
+
+    ngHtml2JsPreprocessor: {     
+      stripPrefix: 'src/',
+      moduleName: 'templates',
+    },
+    coverageReporter: {
+      type : 'html',
+      dir : 'coverage/'
+    }
   });
 };

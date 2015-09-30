@@ -1,10 +1,10 @@
 'use strict'
-angular.module("yg.survey", []).directive("surveyCatalogue", ["variableService", "$q", function(variableService, $q){
+angular.module("yg.survey", []).directive("ygSurveyCatalogue", ["variableService", "$q", function(variableService, $q){
 	return {
 		scope: {},
 		replace: true,
 		restrict: 'E',
-		templateUrl: 'app/surveyDirective/container.html',
+		templateUrl: 'app/surveyCatalogue/container.html',
 		controller: function(){			
 			var vm = this;
 			vm.catalogue = [];	
@@ -23,7 +23,7 @@ angular.module("yg.survey", []).directive("surveyCatalogue", ["variableService",
 				var list = [];
 				switch(typeof orderItem){
 					case "string":
-						list.push(getCatalogueModel(variableList, orderItem, []));
+						list.push(getCatalogueModel(variableList, orderItem));
 					return list;
 					case "object": 
 						Object.keys(orderItem).forEach(function(key){
