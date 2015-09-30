@@ -6,6 +6,7 @@
 
 ### View the webiste
 > npm start
+
 > go to http://localhost:8000/src
 
 ### Run the tests
